@@ -2,5 +2,5 @@
 
 #include <vector>
 
-int LevenshteinDistance(const std::vector<std::byte>& lhs,
-                        const std::vector<std::byte>& rhs);
+int LevenshteinDistance(const std::vector<unsigned char>& lhs,
+                        const std::vector<unsigned char>& rhs) ;
